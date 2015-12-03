@@ -1,6 +1,6 @@
 # node-sendmail
 
-Generamos un proyecto como ejemplo para enviar correos desde nuestro propio servidor, usando el puerto 587.
+Generamos un proyecto como ejemplo para enviar con nodemailer, correos desde nuestro propio servidor, usando el puerto 587.
 
 ## Clonar el repo
 
@@ -15,7 +15,7 @@ $ npm install
 
 ## Variables de entorno
 
-- VAMYAL_ SMTP__HOST
+- VAMYAL_SMTP_HOST
 - VAMYAL_SMTP_USER
 - VAMYAL_SMTP_PASS
 
