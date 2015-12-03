@@ -1,0 +1,28 @@
+{
+  "name": "node-sendmail",
+  "version": "1.0.0",
+  "description": "Envio de Mails",
+  "main": "server.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.vamyal.com:carlos/node-sendmail.git"
+  },
+  "keywords": [
+    "send",
+    "mail",
+    "smtp"
+  ],
+  "author": "Carlos Vallejos <carlos@vamyal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^5.4.1"
+  },
+  "dependencies": {
+    "nodemailer": "^1.10.0"
+  }
+}
